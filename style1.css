@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+  
+.passWD {
+    margin-left: 2px; 
+    margin-bottom: 0px; 
+    margin-top: 0px; 
+    font-size: 10px; 
+    color: rgb(84, 84, 84);
+}
+  
+.amazon-form, .amazon-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.amazon-logo {
+    padding-top: 1em;
+    margin-top: 1em;
+}
+input {
+    font: 1em ;
+    width: 295px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+
+}
+  
+form {
+    width: 300px;
+    font-size: 15px;
+    padding: 1em;
+    padding-bottom: 0px;
+    border: 1px solid #a6a6a6;
+    border-radius: 8px;
+}
+  
+hr {
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.txt {
+    padding-left: 5px;  
+    font-size: 10px;
+}
+
+img {
+    width: 10em;
+    margin-bottom: 1.5em;
+    margin-right: 0.5em;
+    margin-top: 1em;
+}
+
+.term {
+    padding-left: 5px;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+  
+  
+input:focus {
+    border-color: rgb(25, 11, 100);
+}
+  
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;
+}
+  
+input[id="submitBtn"] {
+    background-color: #fad911;
+    border-color: rgba(0, 255, 255, 0.013);
+    border-radius: 5px;
+    width: 295px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    box-shadow:rgb(185, 185, 185) 0px 1px;
+}
+  
+input[id="submitBtn"]:hover {
+    background-color: rgb(249, 220, 30);
+}
+  
+label span {
+    width: 200px;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+  
+a {
+    color: #0066c0;
+}
+  
+a:hover {
+    color :rgb(203, 140, 24);
+}
+  
